@@ -1,5 +1,6 @@
 require 'voucherify/version'
 require 'voucherify/client'
+require 'voucherify/service/async_actions'
 require 'voucherify/service/campaigns'
 require 'voucherify/service/customers'
 require 'voucherify/service/distributions'

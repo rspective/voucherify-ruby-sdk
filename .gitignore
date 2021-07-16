@@ -37,6 +37,7 @@ Gemfile.lock
 
 # Jetbrains temp
 .idea
+*.iml
 
 .ruby-version
 .vscode/

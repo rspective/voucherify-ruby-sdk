@@ -20,6 +20,10 @@ module Voucherify
       @timeout = @options[:timeout] || @options['timeout']
     end
 
+    def async_actions
+      Voucherify::Service::AsyncActions.new(self)
+    end
+
     def vouchers
       Voucherify::Service::Vouchers.new(self)
     end

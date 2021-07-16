@@ -667,6 +667,22 @@ voucherify.events.track(event, metadata, customer, referral);
 ```ruby
 voucherify.events.track_event(data);
 ```
+
+### Async Actions API
+Methods are provided within `voucherify.async_actions.*` namespace.
+- [Get Async Action](#get-async-action)
+- [List Async Actions](#list-async-actions)
+
+#### [Get Async Action]
+```java
+voucherify.async_actions.get(id);
+```
+
+#### [List Async Actions]
+```java
+voucherify.async_actions.list(query);
+```
+
 ---
 
 ### Migration from 0.x
@@ -794,6 +810,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/rspect
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+[Get Async Action]: https://docs.voucherify.io/reference?utm_source=github&utm_medium=sdk&utm_campaign=acq#get-async-actions-1
+[List Async Actions]: https://docs.voucherify.io/reference?utm_source=github&utm_medium=sdk&utm_campaign=acq#list-async-actions
 
 [Create Voucher]: https://docs.voucherify.io/reference?utm_source=github&utm_medium=sdk&utm_campaign=acq#create-voucher
 [Get Voucher]: https://docs.voucherify.io/reference?utm_source=github&utm_medium=sdk&utm_campaign=acq#vouchers-get
